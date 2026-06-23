@@ -1,0 +1,13 @@
+(* Test executable basis: the rate-limit library plus the harness, helpers,
+   and per-policy suites. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/ratelimit.mlb
+
+harness.sml
+support.sml
+test_tokenbucket.sml
+test_leakybucket.sml
+test_slidingwindow.sml
+entry.sml
+main.sml

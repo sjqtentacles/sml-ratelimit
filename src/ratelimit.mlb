@@ -1,0 +1,8 @@
+(* MLB for the sml-ratelimit library: the Basis library plus the rate-limiter
+ * sources. Consumers reference this file.
+ *
+ * There are no vendored dependencies; the structure `RateLimit` is the only
+ * thing this library exports. *)
+$(SML_LIB)/basis/basis.mlb
+ratelimit.sig
+ratelimit.sml
